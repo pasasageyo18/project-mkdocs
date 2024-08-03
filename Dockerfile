@@ -7,6 +7,6 @@ COPY . /docs
 
 RUN mkdocs build
 
-EXPOSE 8080
+EXPOSE 8000
 
-CMD ["mkdocs", "serve"]
+CMD ["mkdocs", "serve", "--dev-addr=0.0.0.0:8000"]

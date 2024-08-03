@@ -5,3 +5,5 @@ nav:
   - Devs: code.md
   - Devops: devops.md
 theme: material
+
+dev_addr: "0.0.0.0:8000"
