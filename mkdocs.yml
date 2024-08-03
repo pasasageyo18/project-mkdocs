@@ -2,5 +2,5 @@ site_name: My Docs
 nav:
   - Home: index.md
   - About: about.md
-theme: readthedocs
-dev_addr: '0.0.0.0:8080'
+theme: material
+dev_addr: "0.0.0.0:8080"
