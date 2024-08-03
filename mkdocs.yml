@@ -1,6 +1,7 @@
 site_name: My Docs
-site_url: https://pasaeuy.org/mynote
+
 nav:
   - Home: index.md
-  - About: about.md
+  - Devs: code.md
+  - Devops: devops.md
 theme: material

@@ -1,5 +1,5 @@
 FROM python:3.9-slim
-RUN pip install mkdocs
+RUN pip install mkdocs-material
 
 WORKDIR /docs
 
@@ -9,4 +9,4 @@ RUN mkdocs build
 
 EXPOSE 8080
 
-CMD ["mkdocs", "serve", "--dev-addr=0.0.0.0:8080"]
+CMD ["mkdocs", "serve"]
